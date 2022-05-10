@@ -28,7 +28,6 @@ chrome.tabs.query({active:true, currentWindow:true},function(tabs){
 })
 
 deleteBtn.addEventListener('dblclick', function () {
-    console.log('salam');
     localStorage.clear();
     myLeads = [];
     render(myLeads);
